@@ -28,6 +28,7 @@ Tabela de conteúdos
   - Tenha certeza que está com o `node` instalado;
   - Execute o comando `node install` para instalar as dependências;
   - Execute o comando `npm run dev` para iniciar a API;
+  - API está rodando na porta `8000`
 - ##### Abra o `index.html` para ver a interface
 - ##### As chamadas e funcionalidades estão em `/js/index.js`
 ---
