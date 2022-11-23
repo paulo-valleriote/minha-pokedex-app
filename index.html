@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minha Pokedex</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <main>
+        <div class="container">
+            <section id="pokeList" class="field">
+                <div class="header">
+
+                    <h2>Lista dos iniciais</h2>
+                    <button id="getPokeList">Me mostre!</button>
+                </div>
+                <article>
+                    <ul id="pokeListContent"></ul>
+                </article>
+            </section>
+            <section id="pokeDetails" class="field">
+
+                <form id="getPokeId">
+                    <h2>Quero detalhes deste pokemon:</h2>
+
+                    <input type="text" placeholder="Número ou nome (em inglês)" id="pokeIdValue" autocomplete="off"
+                        required>
+
+                    <input type="submit" value="Escolho você!" id="choosePokeBtn">
+                </form>
+
+                <article id="pokeInfos" hidden>
+                    <ul>
+                        <li class="no-content-before poke-infos-header">
+                            <h3><strong id="pokeName">Name</strong> <sub id="pokeId">id</sub></h3>
+                        </li>
+                        <li id="pokeSize">Tamanho:</li>
+                        <li id="pokeWeigth">Peso:</li>
+                        <li id="pokeXp">Xp:</li>
+                        <li id="pokeAbility">Habilidades:
+                        </li>
+                    </ul>
+                </article>
+            </section>
+        </div>
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="./js/api.js"></script>
+    <script src="./js/index.js"></script>
+</body>
+
+</html>

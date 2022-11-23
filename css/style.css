@@ -1,0 +1,189 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    color: black;
+
+    background-color: #1f355a;
+
+    max-width: 80vw;
+
+    margin: auto;
+}
+
+body,
+input,
+button {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+main {
+    display: flex;
+
+    place-content: center;
+
+    min-height: 90vh;
+
+    scale: 1.2;
+
+    overflow: hidden;
+}
+
+.container {
+    display: flex;
+
+    flex-direction: column;
+
+    place-content: center;
+
+    padding: 8rem 0 2rem 0;
+
+    gap: 4rem;
+}
+
+.field {
+    display: flex;
+
+    flex-direction: column;
+
+    padding: 1.5rem;
+    border-radius: .5rem;
+
+    text-align: center;
+
+    background-color: white;
+}
+
+h2 {
+    margin-bottom: 1rem;
+}
+
+input,
+input::placeholder,
+button {
+    color: white;
+    background-color: #415c8b;
+}
+
+input[type='submit'],
+button {
+    padding: .5rem;
+    width: 35%;
+
+    border: none;
+    border-radius: .5rem;
+
+    cursor: pointer;
+}
+
+button {
+    margin-bottom: 1rem;
+}
+
+input[type='text'],
+input[type='text']::placeholder {
+    background-color: #6b7ea0;
+}
+
+input[type='text']::placeholder {
+    opacity: 0.5;
+}
+
+ul {
+    list-style-type: none;
+
+    color: white;
+
+    text-align: left;
+    margin-left: .5rem;
+}
+
+ul li::before {
+    display: inline-block;
+    content: url(../assets/pokeball-icon.svg);
+    width: 10px;
+    height: 10px;
+    margin-right: .5rem;
+}
+
+ul li {
+    margin-bottom: .25rem;
+    background-color: #1f355a;
+
+    padding: .5rem;
+
+    border-radius: .25rem;
+}
+
+.poke-infos-header {
+    color: black;
+
+    font-size: 1.125rem;
+
+    background-color: transparent;
+}
+
+.no-content-before::before {
+    display: none;
+}
+
+.pokeDetails form {
+    display: flex;
+    flex-direction: row;
+}
+
+input[type='text'] {
+    width: 60%;
+    padding: .5rem;
+
+    border: none;
+    border-radius: .5rem;
+
+    text-align: center;
+
+    z-index: 40;
+}
+
+#pokeInfos h3 {
+    margin: .5rem 0;
+}
+
+#pokeInfos ul li {
+    text-align: justify;
+}
+
+ul li ul li {
+    padding: 0;
+    padding-left: .5rem;
+}
+
+ul li ul li::before {
+    display: inline-block;
+    content: url(../assets/ability-tm-icon.svg);
+    width: 10px;
+    height: 10px;
+    margin-right: 0.5rem;
+}
+
+@media (width > 1200px) {
+    main {
+        place-content: center;
+    }
+
+    .container {
+        flex-direction: row;
+
+        margin: auto;
+
+        height: 100%;
+    }
+
+    .field {
+        place-content: center;
+
+        width: 100%;
+    }
+}
