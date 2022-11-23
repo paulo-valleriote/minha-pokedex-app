@@ -23,8 +23,6 @@ Tabela de conteúdos
 - [x] Listar os Pokemons Iniciais da 1ª geração
 - [x] Pesquisar os detalhes o sobre um Pokemon específico
 ---
-### Veja o projeto em ação [Aqui]()
----
 ### Pré-Requisitos
 - #### Dentro da pasta `/API`
   - Tenha certeza que está com o `node` instalado;
