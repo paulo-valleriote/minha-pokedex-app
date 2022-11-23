@@ -1,5 +1,5 @@
-#Minha Pokedex
-Aplicação desenvolvida como exercício do curso de Desenvolvimento de Software da Cubos Academy.
+# Minha Pokedex
+######Aplicação desenvolvida como exercício do curso de Desenvolvimento de Software da Cubos Academy.
 
 Usando a [biblioteca](https://www.npmjs.com/package/utils-playground) feita pelo professor [Guido Cerqueira](https://github.com/guidocerqueira), que entre suas funcionalidades se conecta com a [PokeAPI](https://pokeapi.co/api/v2), deveriamos fazer nossa própria API para requisitar uma lista de pokemons e os dados do pokemon requisitado.
 
