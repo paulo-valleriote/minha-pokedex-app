@@ -4,6 +4,7 @@
 Usando a [biblioteca](https://www.npmjs.com/package/utils-playground) feita pelo professor [Guido Cerqueira](https://github.com/guidocerqueira), que entre suas funcionalidades se conecta com a [PokeAPI](https://pokeapi.co/api/v2), deveriamos fazer nossa própria API para requisitar uma lista de pokemons e os dados do pokemon requisitado.
 
 Como bônus desenvolvi uma pequena interface para o uso desta aplicação.
+
 ---
 Tabela de conteúdos
 =========
